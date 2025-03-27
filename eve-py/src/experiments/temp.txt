@@ -1,0 +1,60 @@
+Checking E-Nash property formula:  F  G  !  ( s1 or s2 or s3 or s4 or s5 ) 
+Processing: IGRAPH DN-- 3 96 --
++ attr: colour (v), name (v), state (v), end (e), start (e), word (e)
++ edges (vertex names):
+0 -> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 2
+1 -> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 2
+2 -> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 2
+Kripke states 6
+Kripke edges 112
+
+ Convert G_{LTL} to G_{PAR}...
+
+
+ Sequentialising GPar for punishing <RM1>
+IGRAPH DN-- 155 416 -- 
++ attr: colour (v), itd (v), label (v), name (v), prior (v), val (v), label (e), word (e)
+None
+
+ Computing punishing region for <RM1>
+
+ Sequentialising GPar for punishing <RM2>
+IGRAPH DN-- 155 416 -- 
++ attr: colour (v), itd (v), label (v), name (v), prior (v), val (v), label (e), word (e)
+None
+
+ Computing punishing region for <RM2>
+
+ Sequentialising GPar for punishing <RM3>
+IGRAPH DN-- 155 416 -- 
++ attr: colour (v), itd (v), label (v), name (v), prior (v), val (v), label (e), word (e)
+None
+
+ Computing punishing region for <RM3>
+
+ Sequentialising GPar for punishing <RM4>
+IGRAPH DN-- 155 416 -- 
++ attr: colour (v), itd (v), label (v), name (v), prior (v), val (v), label (e), word (e)
+None
+
+ Computing punishing region for <RM4>
+
+ Sequentialising GPar for punishing <RM5>
+IGRAPH DN-- 155 416 -- 
++ attr: colour (v), itd (v), label (v), name (v), prior (v), val (v), label (e), word (e)
+None
+
+ Computing punishing region for <RM5>
+>>> NO, the property  F  G  !  ( s1 or s2 or s3 or s4 or s5 )  is not satisfied in any NE <<<
+Parser Performance (milisecond) 3.92919921875
+GPar Construction Performance (milisecond) 4042.033203125
+PGSolver Performance (milisecond) 138.576171875
+E-Nash performance (milisecond) 1537.223388671875
+Total performance (milisecond) 5721.761962890625
+GPar states 11
+GPar edges 272
+Max TTPG states 155
+Max TTPG edges 416
